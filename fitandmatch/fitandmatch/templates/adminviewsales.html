@@ -1,0 +1,40 @@
+
+{% include 'adminheader.html' %}
+	
+	<div id='page-wrapper'>
+	<div id='page-inner'>
+		<div class='row'>
+			<div class='col-md-12'>
+				<h3>VIEW SALES</h3>
+				<div class='form'>
+				</div>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-md-12'>
+				<table class='table table-stripe'>
+					<thead>
+						<tr>
+							<th>Sl No.</th>
+							<th>Sales Team</th>
+							<th>Date</th>
+							<th>Sales Status </th>
+						</tr>
+					</thead>
+					<tbody>
+						{% for row in data['view'] %}
+						<tr>
+							<td>{{loop.index}}</td>
+							<td>{{row['sales_name']}}</td>
+							<td>{{row['s_date']}}</td>
+							<td>{{row['status']}}</td>
+						</tr>
+						{% endfor %}
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% include 'footer.html' %}

@@ -1,0 +1,88 @@
+{% include 'adminheader.html' %}
+<div id='page-wrapper'>
+	<div id='page-inner'>
+		<div class='row'>
+			<div class='col-md-12'>
+				
+				<h3>Manage Logistic Team</h3>
+				<div class='form'>
+					<form method="post" enctype="multipart/form-data" ><br>
+						<div class='form-group'>
+							<label><b>Name</b></label>
+							<br>
+							<input class='form-control' placeholder='Name' type = 'text' required name='logi_name' pattern="[a-zA-Z0-9\s]{2,30}" title="Enter a valid name here!">
+						</div>
+						<div class='form-group'>
+							<label><b>Email</b></label>
+							<br>
+							<input class='form-control' placeholder='Email' type = 'email' required name='logi_email'  title="Enter a valid email here!">
+						</div>
+	    				<div class='form-group'>
+							<label><b>Contact Number</b></label>
+							<br>
+							<input class='form-control' placeholder='Contact Number' type = 'text' required name='logi_contact' pattern="[0-9]{10}" title="Enter a valid contact number here!">
+						</div>
+	    				<div class='form-group'>
+							<label><b>Username</b></label>
+							<br>
+							<input class='form-control' placeholder='username' type = 'text' required name='username' pattern="[a-zA-Z\s]{2,20}" title="Enter a valid username here!" >
+						</div>
+						<div class='form-group'>
+							<label><b>Password</b></label>
+							<br>
+							<input class='form-control' placeholder='password' type = 'text' required name='password'>
+						</div>
+						<div class='form-group'>
+							<input type='submit' class='btn btn-success' required name='submit' value='Submit'>
+						</div>
+					</form>
+				</div>
+				
+			</div>
+		</div>
+
+
+		<div class='row'>
+			<div class='col-md-12'>
+				<h3>Logistic Details</h3>
+				<div class='form'>
+				</div>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-md-12'>
+				<table class='table'>
+					<thead>
+						<tr>
+							<th>Sl No.</th>
+							<th>Name</th>
+							<th>Email</th>
+							<th>Contact Number</th>
+							<th>Delete</th>
+							
+						</tr>
+					</thead>
+					<tbody>
+						{% for row in data['view'] %}
+						<tr>
+							<td>{{loop.index}}</td>
+							<td>{{row['logi_name']}}</td>
+							<td>{{row['logi_email']}}</td>
+							<td>{{row['logi_contact']}}</td>
+							<td>
+								<a href="?action=delete&id={{row['logi_id']}}" onclick="return confirm('Do you want to remove ?')">
+									<img src="/static/icon/deletered.png" width="40px" height="40px">
+								</a>
+							</td>
+							
+						</tr>
+						{% endfor %}
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+{% include 'footer.html' %}

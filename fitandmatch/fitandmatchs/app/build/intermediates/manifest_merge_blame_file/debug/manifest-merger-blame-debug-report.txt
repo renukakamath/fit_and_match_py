@@ -1,0 +1,185 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.jewellery"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:9:5-67
+11-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:9:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:10:5-65
+12-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:10:22-62
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:11:5-80
+13-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:11:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:12:5-81
+14-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:12:22-78
+15
+16    <uses-feature
+16-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:14:5-16:35
+17        android:name="android.hardware.camera.ar"
+17-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:15:9-50
+18        android:required="true" />
+18-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:16:9-32
+19
+20    <application
+20-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:19:5-101:19
+21        android:allowBackup="true"
+21-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:20:9-35
+22        android:debuggable="true"
+23        android:icon="@drawable/fm"
+23-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:21:9-36
+24        android:label="@string/app_name"
+24-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:24:9-41
+25        android:requestLegacyExternalStorage="true"
+25-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:23:9-52
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme"
+27-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:25:9-40
+28        android:usesCleartextTraffic="true" >
+28-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:22:9-44
+29        <activity
+29-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:26:9-29:20
+30            android:name="com.example.jewellery.Login"
+30-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:27:13-55
+31            android:label="@string/app_name" >
+31-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:28:13-45
+32        </activity>
+33        <activity
+33-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:30:9-33:20
+34            android:name="com.example.jewellery.Registration"
+34-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:31:13-62
+35            android:label="@string/title_activity_registration" >
+35-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:32:13-64
+36        </activity>
+37        <activity
+37-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:34:9-37:20
+38            android:name="com.example.jewellery.Customer_homepage"
+38-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:35:13-67
+39            android:label="@string/title_activity_customer_homepage" >
+39-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:36:13-69
+40        </activity>
+41        <activity
+41-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:38:9-41:20
+42            android:name="com.example.jewellery.Enquiry"
+42-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:39:13-57
+43            android:label="@string/title_activity_enquiry" >
+43-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:40:13-59
+44        </activity>
+45        <activity
+45-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:42:9-45:20
+46            android:name="com.example.jewellery.Feedback"
+46-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:43:13-58
+47            android:label="@string/title_activity_feedback" >
+47-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:44:13-60
+48        </activity>
+49        <activity
+49-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:46:9-49:20
+50            android:name="com.example.jewellery.Ornaments"
+50-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:47:13-59
+51            android:label="@string/title_activity_ornaments" >
+51-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:48:13-61
+52        </activity>
+53        <activity
+53-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:50:9-53:20
+54            android:name="com.example.jewellery.Jewellery"
+54-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:51:13-59
+55            android:label="@string/title_activity_jewellery" >
+55-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:52:13-61
+56        </activity>
+57        <activity
+57-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:54:9-57:20
+58            android:name="com.example.jewellery.Model"
+58-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:55:13-55
+59            android:label="@string/title_activity_model" >
+59-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:56:13-57
+60        </activity>
+61        <activity
+61-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:58:9-61:20
+62            android:name="com.example.jewellery.Trackorder"
+62-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:59:13-60
+63            android:label="@string/title_activity_history" >
+63-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:60:13-59
+64        </activity>
+65        <activity
+65-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:62:9-70:20
+66            android:name="com.example.jewellery.IPsettings"
+66-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:63:13-60
+67            android:label="@string/title_activity_ipsettings" >
+67-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:64:13-62
+68            <intent-filter>
+68-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:65:13-69:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:66:17-69
+69-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:66:25-66
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:68:17-77
+71-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:68:27-74
+72            </intent-filter>
+73        </activity>
+74        <activity
+74-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:71:9-74:20
+75            android:name="com.example.jewellery.Purchase_view"
+75-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:72:13-63
+76            android:label="@string/title_activity_purchase_view" >
+76-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:73:13-65
+77        </activity>
+78        <activity
+78-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:75:9-78:20
+79            android:name="com.example.jewellery.Model_details"
+79-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:76:13-63
+80            android:label="@string/title_activity_model_details" >
+80-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:77:13-65
+81        </activity>
+82        <activity
+82-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:79:9-82:20
+83            android:name="com.example.jewellery.FIT"
+83-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:80:13-53
+84            android:label="@string/title_activity_fit" >
+84-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:81:13-55
+85        </activity>
+86        <activity android:name="com.example.jewellery.PHOTO" >
+86-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:83:9-84:20
+86-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:83:19-61
+87        </activity>
+88        <activity android:name="com.example.jewellery.FitEarring" >
+88-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:85:9-86:20
+88-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:85:19-66
+89        </activity>
+90        <activity
+90-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:87:9-90:20
+91            android:name="com.example.jewellery.Payment"
+91-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:88:13-57
+92            android:label="@string/title_activity_payment" >
+92-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:89:13-59
+93        </activity>
+94        <activity
+94-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:91:9-94:20
+95            android:name="com.example.jewellery.Cart_view"
+95-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:92:13-59
+96            android:label="@string/title_activity_cart_view" >
+96-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:93:13-61
+97        </activity>
+98        <activity android:name="com.example.jewellery.Categories" >
+98-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:95:9-96:20
+98-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:95:19-66
+99        </activity>
+100        <activity
+100-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:97:9-100:20
+101            android:name="com.example.jewellery.Pay"
+101-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:98:13-53
+102            android:label="@string/title_activity_pay" >
+102-->D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:99:13-55
+103        </activity>
+104    </application>
+105
+106</manifest>

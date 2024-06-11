@@ -1,0 +1,132 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Ananthu anil\\py+android\\2023\\Updated\\stas\\fit_and_match prjt\\fitandmatch\\AndroidStudio\\app\\build\\intermediates\\merged_res\\debug\\values-sw720dp-land-v13_values-sw720dp-land-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\Ananthu anil\\py+android\\2023\\Updated\\stas\\fit_and_match prjt\\fitandmatch\\AndroidStudio\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "205",
+                        "endColumns": "58",
+                        "endOffsets": "259"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "58",
+                        "endOffsets": "109"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Ananthu anil\\py+android\\2023\\Updated\\stas\\fit_and_match prjt\\fitandmatch\\AndroidStudio\\app\\build\\intermediates\\merged_res\\debug\\values-v14_values-v14.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\Ananthu anil\\py+android\\2023\\Updated\\stas\\fit_and_match prjt\\fitandmatch\\AndroidStudio\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "from": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "225",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "373"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "201"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Ananthu anil\\py+android\\2023\\Updated\\stas\\fit_and_match prjt\\fitandmatch\\AndroidStudio\\app\\build\\intermediates\\merged_res\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\Ananthu anil\\py+android\\2023\\Updated\\stas\\fit_and_match prjt\\fitandmatch\\AndroidStudio\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,3,5,19,7,8,9,17,13,14,11,12,16,10,20,18,15,6",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "111,59,165,1061,289,369,429,949,675,739,555,619,877,491,1125,1001,805,219",
+                        "endColumns": "52,50,52,62,78,58,60,50,62,64,62,54,70,62,50,58,70,68",
+                        "endOffsets": "159,105,213,1119,363,423,485,995,733,799,613,669,943,549,1171,1055,871,283"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "169,222,273,326,389,468,527,588,639,702,767,830,885,956,1019,1070,1129,1200",
+                        "endColumns": "52,50,52,62,78,58,60,50,62,64,62,54,70,62,50,58,70,68",
+                        "endOffsets": "217,268,321,384,463,522,583,634,697,762,825,880,951,1014,1065,1124,1195,1264"
+                    }
+                },
+                {
+                    "source": "D:\\Ananthu anil\\py+android\\2023\\Updated\\stas\\fit_and_match prjt\\fitandmatch\\AndroidStudio\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "191,522",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "481,679"
+                    },
+                    "to": {
+                        "startLines": "22,29",
+                        "startColumns": "4,4",
+                        "startOffsets": "1269,1560",
+                        "endLines": "28,31",
+                        "endColumns": "12,12",
+                        "endOffsets": "1555,1715"
+                    }
+                },
+                {
+                    "source": "D:\\Ananthu anil\\py+android\\2023\\Updated\\stas\\fit_and_match prjt\\fitandmatch\\AndroidStudio\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "92,151",
+                        "endColumns": "57,55",
+                        "endOffsets": "145,202"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,55",
+                        "endOffsets": "108,164"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Ananthu anil\\py+android\\2023\\Updated\\stas\\fit_and_match prjt\\fitandmatch\\AndroidStudio\\app\\build\\intermediates\\merged_res\\debug\\values-v11_values-v11.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\Ananthu anil\\py+android\\2023\\Updated\\stas\\fit_and_match prjt\\fitandmatch\\AndroidStudio\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "182",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "316"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "187"
+                    }
+                }
+            ]
+        }
+    ]
+}

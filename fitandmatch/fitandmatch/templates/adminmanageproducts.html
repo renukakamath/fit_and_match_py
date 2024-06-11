@@ -1,0 +1,100 @@
+{% include 'adminheader.html' %}
+<div id='page-wrapper'>
+	<div id='page-inner'>
+		<div class='row'>
+			<div class='col-md-12'>
+				
+				<h3>Manage Products</h3>
+				<div class='form'>
+					<form method="post" enctype="multipart/form-data" ><br>
+						<div class='form-group'>
+							<label><b>Choose Category</b></label>
+							<br>
+							<select name="cat_id" class="form-control" required="">
+								<option>--Select--</option>
+								{%for row in data['category']%}
+								<option value="{{row['cat_id']}}">{{row['category']}}</option>
+								{%endfor%}
+							</select>
+						</div>
+						<div class='form-group'>
+							<label><b>Product Name</b></label>
+							<br>
+							<input class='form-control'type = 'text' required  name="pro_name" placeholder="Product Name" pattern="[a-zA-Z\s]{2,30}" title="Enter a valid name here!">
+						</div>
+						<div class='form-group'>
+							<label><b>Description</b></label>
+							<br>
+							<textarea required name='pro_desc' class='form-control' placeholder='Description'></textarea>
+							
+						</div>
+						<div class='form-group'>
+							<label><b>Price</b></label>
+							<br>
+							<input class='form-control' placeholder='Price' type = 'number' required name='pro_price'  title="Enter a valid price here!">
+						</div>
+						<div class='form-group'>
+							<label><b>Image</b></label>
+							<br>
+							<input type="file" name="pro_img" class='form-control' required>
+						</div>
+					
+						<div class='form-group'>
+							<input type='submit' class='btn btn-success' required name='submit' value='Submit'>
+						</div>
+					</form>
+				</div>
+				
+			</div>
+		</div>
+
+
+		<div class='row'>
+			<div class='col-md-12'>
+				<h3>Product Details</h3>
+				<div class='form'>
+				</div>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-md-12'>
+				<table class='table'>
+					<thead>
+						<tr>
+							<th>Sl No.</th>
+							<th>Category</th>
+							<th>Product Name</th>
+							<th>Description</th>
+							<th>Price</th>
+							<th>Image</th>
+							<th>Delete</th>
+							
+						</tr>
+					</thead>
+					<tbody>
+						{% for row in data['view'] %}
+						<tr>
+							<td>{{loop.index}}</td>
+							<td>{{row['category']}}</td>
+							<td>{{row['pro_name']}}</td>
+							<td>{{row['pro_desc']}}</td>
+							<td>{{row['pro_price']}}</td>
+							<td><img src="/{{row['pro_img']}}" width="100px" height="100px"></td>
+							<td>
+								<a href="?action=delete&id={{row['pro_id']}}" onclick="return confirm('Do you want to remove ?')">
+									<img src="/static/icon/deletered.png" width="40px" height="40px">
+								</a>
+							</td>
+							
+						</tr>
+						{% endfor %}
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+{% include 'footer.html' %}
+

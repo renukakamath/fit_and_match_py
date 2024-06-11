@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jewellery"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera.ar"
+        android:required="true" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/fm"
+        android:usesCleartextTraffic="true"
+        android:requestLegacyExternalStorage="true"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.jewellery.Login"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.jewellery.Registration"
+            android:label="@string/title_activity_registration" >
+        </activity>
+        <activity
+            android:name="com.example.jewellery.Customer_homepage"
+            android:label="@string/title_activity_customer_homepage" >
+        </activity>
+        <activity
+            android:name="com.example.jewellery.Enquiry"
+            android:label="@string/title_activity_enquiry" >
+        </activity>
+        <activity
+            android:name="com.example.jewellery.Feedback"
+            android:label="@string/title_activity_feedback" >
+        </activity>
+        <activity
+            android:name="com.example.jewellery.Ornaments"
+            android:label="@string/title_activity_ornaments" >
+        </activity>
+        <activity
+            android:name="com.example.jewellery.Jewellery"
+            android:label="@string/title_activity_jewellery" >
+        </activity>
+        <activity
+            android:name="com.example.jewellery.Model"
+            android:label="@string/title_activity_model" >
+        </activity>
+        <activity
+            android:name="com.example.jewellery.Trackorder"
+            android:label="@string/title_activity_history" >
+        </activity>
+        <activity
+            android:name="com.example.jewellery.IPsettings"
+            android:label="@string/title_activity_ipsettings" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.jewellery.Purchase_view"
+            android:label="@string/title_activity_purchase_view" >
+        </activity>
+        <activity
+            android:name="com.example.jewellery.Model_details"
+            android:label="@string/title_activity_model_details" >
+        </activity>
+        <activity
+            android:name="com.example.jewellery.FIT"
+            android:label="@string/title_activity_fit" >
+        </activity>
+        <activity android:name="com.example.jewellery.PHOTO" >
+        </activity>
+        <activity android:name="com.example.jewellery.FitEarring" >
+        </activity>
+        <activity
+            android:name="com.example.jewellery.Payment"
+            android:label="@string/title_activity_payment" >
+        </activity>
+        <activity
+            android:name="com.example.jewellery.Cart_view"
+            android:label="@string/title_activity_cart_view" >
+        </activity>
+        <activity android:name="com.example.jewellery.Categories" >
+        </activity>
+        <activity
+            android:name="com.example.jewellery.Pay"
+            android:label="@string/title_activity_pay" >
+        </activity>
+    </application>
+
+</manifest>

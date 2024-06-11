@@ -1,0 +1,103 @@
+{% include 'adminheader.html' %}
+<div id='page-wrapper'>
+	<div id='page-inner'>
+		<div class='row'>
+			<div class='col-md-12'>
+				
+				<h3>MANAGE SALES TEAM</h3>
+				<div class='form'>
+					<form method="post" enctype="multipart/form-data" ><br>
+						<div class='form-group'>
+							<label><b>Name</b></label>
+							<br>
+							<input class='form-control' placeholder='Name' type = 'text' required name='sales_name' pattern="[a-zA-Z0-9\s]{2,30}" title="Enter a valid name here!">
+						</div>
+						<div class='form-group'>
+							<label><b>City</b></label>
+							<br>
+							<input class='form-control' placeholder='City' type = 'text' required name='sales_city' pattern="[a-zA-Z\s]{2,30}" title="Enter a valid city here!">
+						</div>
+						<div class='form-group'>
+							<label><b>Pincode</b></label>
+							<br>
+							<input class='form-control' placeholder='Pincode' type = 'text' required name='sales_pincode' pattern="[0-9]{6}" title="Enter a valid pincode here!">
+						</div>
+						<div class='form-group'>
+							<label><b>Email</b></label>
+							<br>
+							<input class='form-control' placeholder='Email' type = 'email' required name='sales_email'  title="Enter a valid email here!">
+						</div>
+	    				<div class='form-group'>
+							<label><b>Contact Number</b></label>
+							<br>
+							<input class='form-control' placeholder='Contact Number' type = 'text' required name='sales_contact' pattern="[0-9]{10}" title="Enter a valid contact number here!">
+						</div>
+	    				<div class='form-group'>
+							<label><b>Username</b></label>
+							<br>
+							<input class='form-control' placeholder='username' type = 'text' required name='username' pattern="[a-zA-Z\s]{2,20}" title="Enter a valid username here!" >
+						</div>
+						<div class='form-group'>
+							<label><b>Password</b></label>
+							<br>
+							<input class='form-control' placeholder='password' type = 'text' required name='password'>
+						</div>
+						<div class='form-group'>
+							<input type='submit' class='btn btn-success' required name='submit' value='Submit'>
+						</div>
+					</form>
+				</div>
+				
+			</div>
+		</div>
+
+
+		<div class='row'>
+			<div class='col-md-12'>
+				<h3>Sales Team Details</h3>
+				<div class='form'>
+				</div>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-md-12'>
+				<table class='table'>
+					<thead>
+						<tr>
+							<th>Sl No.</th>
+							<th>Sales Team</th>
+							<th>City</th>
+							<th>Pincode</th>
+							<th>Email</th>
+							<th>Contact</th>
+							<th>Delete</th>
+							
+						</tr>
+					</thead>
+					<tbody>
+						{% for row in data['view'] %}
+						<tr>
+							<td>{{loop.index}}</td>
+							<td>{{row['sales_name']}}</td>
+							<td>{{row['sales_city']}}</td>
+							<td>{{row['sales_pincode']}}</td>
+							<td>{{row['sales_email']}}</td>
+							<td>{{row['sales_contact']}}</td>
+							<td>
+								<a href="?action=delete&id={{row['sales_id']}}" onclick="return confirm('Do you want to remove ?')">
+									<img src="/static/icon/deletered.png" width="40px" height="40px">
+								</a>
+							</td>
+							
+						</tr>
+						{% endfor %}
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+{% include 'footer.html' %}
+

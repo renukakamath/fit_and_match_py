@@ -1,0 +1,191 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:2:1-103:12
+INJECTED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:2:1-103:12
+INJECTED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:2:1-103:12
+INJECTED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:2:1-103:12
+INJECTED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:2:1-103:12
+INJECTED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:2:1-103:12
+INJECTED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:2:1-103:12
+	package
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.CAMERA
+ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:10:5-65
+	android:name
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:10:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:11:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:12:22-78
+uses-feature#android.hardware.camera.ar
+ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:14:5-16:35
+	android:required
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:16:9-32
+	android:name
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:15:9-50
+application
+ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:19:5-101:19
+	android:requestLegacyExternalStorage
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:23:9-52
+	android:label
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:24:9-41
+	android:icon
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:21:9-36
+	android:allowBackup
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:20:9-35
+	android:theme
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:25:9-40
+	android:usesCleartextTraffic
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:22:9-44
+activity#com.example.jewellery.Login
+ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:26:9-29:20
+	android:label
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:28:13-45
+	android:name
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:27:13-55
+activity#com.example.jewellery.Registration
+ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:30:9-33:20
+	android:label
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:32:13-64
+	android:name
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:31:13-62
+activity#com.example.jewellery.Customer_homepage
+ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:34:9-37:20
+	android:label
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:36:13-69
+	android:name
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:35:13-67
+activity#com.example.jewellery.Enquiry
+ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:38:9-41:20
+	android:label
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:40:13-59
+	android:name
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:39:13-57
+activity#com.example.jewellery.Feedback
+ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:42:9-45:20
+	android:label
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:44:13-60
+	android:name
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:43:13-58
+activity#com.example.jewellery.Ornaments
+ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:46:9-49:20
+	android:label
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:48:13-61
+	android:name
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:47:13-59
+activity#com.example.jewellery.Jewellery
+ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:50:9-53:20
+	android:label
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:52:13-61
+	android:name
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:51:13-59
+activity#com.example.jewellery.Model
+ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:54:9-57:20
+	android:label
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:56:13-57
+	android:name
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:55:13-55
+activity#com.example.jewellery.Trackorder
+ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:58:9-61:20
+	android:label
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:60:13-59
+	android:name
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:59:13-60
+activity#com.example.jewellery.IPsettings
+ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:62:9-70:20
+	android:label
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:64:13-62
+	android:name
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:63:13-60
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:65:13-69:29
+action#android.intent.action.MAIN
+ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:66:17-69
+	android:name
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:66:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:68:17-77
+	android:name
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:68:27-74
+activity#com.example.jewellery.Purchase_view
+ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:71:9-74:20
+	android:label
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:73:13-65
+	android:name
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:72:13-63
+activity#com.example.jewellery.Model_details
+ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:75:9-78:20
+	android:label
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:77:13-65
+	android:name
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:76:13-63
+activity#com.example.jewellery.FIT
+ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:79:9-82:20
+	android:label
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:81:13-55
+	android:name
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:80:13-53
+activity#com.example.jewellery.PHOTO
+ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:83:9-84:20
+	android:name
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:83:19-61
+activity#com.example.jewellery.FitEarring
+ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:85:9-86:20
+	android:name
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:85:19-66
+activity#com.example.jewellery.Payment
+ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:87:9-90:20
+	android:label
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:89:13-59
+	android:name
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:88:13-57
+activity#com.example.jewellery.Cart_view
+ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:91:9-94:20
+	android:label
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:93:13-61
+	android:name
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:92:13-59
+activity#com.example.jewellery.Categories
+ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:95:9-96:20
+	android:name
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:95:19-66
+activity#com.example.jewellery.Pay
+ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:97:9-100:20
+	android:label
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:99:13-55
+	android:name
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml:98:13-53
+uses-sdk
+INJECTED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml
+INJECTED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml
+INJECTED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml
+INJECTED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml
+		ADDED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Ananthu anil\py+android\2023\Updated\stas\fit_and_match prjt\fitandmatch\AndroidStudio\app\src\main\AndroidManifest.xml

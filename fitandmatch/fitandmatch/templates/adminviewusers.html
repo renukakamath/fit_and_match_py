@@ -1,0 +1,48 @@
+{% include 'adminheader.html' %}
+	
+	<div id='page-wrapper'>
+	<div id='page-inner'>
+		<div class='row'>
+			<div class='col-md-12'>
+				<h3>LIST OF USERS</h3>
+				<div class='form'>
+				</div>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-md-12'>
+				<table class='table'>
+					<thead>
+						<tr>
+							<th>Sl No.</th>
+							<th>Name</th>
+							<th>Gender</th>
+							<th>House Name</th>
+							<th>City</th>
+							<th>Pincode</th>
+							<th>Email</th>
+							<th>Contact</th>
+						</tr>
+					</thead>
+					<tbody>
+						{% for row in data['view'] %}
+						<tr>
+							<td>{{loop.index}}</td>
+							<td>{{row['Name']}}</td>
+							<td>{{row['cust_gender']}}</td>
+							<td>{{row['cust_hname']}}</td>
+							<td>{{row['cust_city']}}</td>
+							<td>{{row['cust_pincode']}}</td>
+							<td>{{row['cust_email']}}</td>
+							<td>{{row['cust_contact']}}</td>
+						</tr>
+						{% endfor %}
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% include 'footer.html' %}
+

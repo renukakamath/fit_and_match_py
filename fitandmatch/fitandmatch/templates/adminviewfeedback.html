@@ -1,0 +1,41 @@
+
+{% include 'adminheader.html' %}
+	
+	<div id='page-wrapper'>
+	<div id='page-inner'>
+		<div class='row'>
+			<div class='col-md-12'>
+				<h3>FEEDBACKS</h3>
+				<div class='form'>
+				</div>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-md-12'>
+				<table class='table  table-striped'>
+					<thead>
+						<tr>
+							<th>Sl No.</th>
+							<th>Date</th>
+							<th>Customer Name</th>
+							<th>Feedbacks</th>
+						</tr>
+					</thead>
+					<tbody>
+						{% for row in data['view'] %}
+						<tr>
+							<td>{{loop.index}}</td>
+							<td>{{row['date']}}</td>
+							<td>{{row['NAME']}}</td>
+							<td>{{row['feedback']}}</td>
+						</tr>
+						{% endfor %}
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% include 'footer.html' %}
+

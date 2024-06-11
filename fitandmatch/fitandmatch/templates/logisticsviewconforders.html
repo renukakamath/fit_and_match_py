@@ -1,0 +1,83 @@
+
+{% include 'logisticsheader.html' %}
+	<div id='page-wrapper'>
+	<div id='page-inner'>
+			{%if data['custdetails']%}
+		<div class='row'>
+			<div class='col-md-12'>
+				
+				<h3>Customer Details</h3>
+				<div class='form'>
+					<div class='form-group'>
+						<label><b>Name : </b></label>
+						<label><b>{{data['custdetails'][0]['NAME']}}</b></label>
+					</div>
+					<div class='form-group'>
+						<label><b>Gender : </b></label>
+						<label><b>{{data['custdetails'][0]['cust_gender']}}</b></label>
+					</div>
+					<div class='form-group'>
+						<label><b>House Name : </b></label>
+						<label><b>{{data['custdetails'][0]['cust_hname']}}</b></label>
+					</div>
+					<div class='form-group'>
+						<label><b>City : </b></label>
+						<label><b>{{data['custdetails'][0]['cust_city']}}</b></label>
+					</div>
+					<div class='form-group'>
+						<label><b>Pincode : </b></label>
+						<label><b>{{data['custdetails'][0]['cust_pincode']}}</b></label>
+					</div>
+					<div class='form-group'>
+						<label><b>Email : </b></label>
+						<label><b>{{data['custdetails'][0]['cust_email']}}</b></label>
+					</div>
+					<div class='form-group'>
+						<label><b>Contact : </b></label>
+						<label><b>{{data['custdetails'][0]['cust_contact']}}</b></label>
+					</div>
+				</div>
+			</div>
+		</div>
+		{%else%}
+		<div class='row'>
+			<div class='col-md-12'>
+				<h3>CONFIRMED ORDERS</h3>
+				<div class='form'>
+				</div>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-md-12'>
+				<table class='table'>
+					<thead>
+						<tr>
+							<th>Sl No.</th>
+							<th>Customer Name</th>
+							<th>Product Name</th>
+							<th>Price</th>
+							<th>Status</th>
+						
+						</tr>
+					</thead>
+					<tbody>
+						{% for row in data['view'] %}
+						<tr>
+							<td>{{loop.index}}</td>
+							<td>{{row['NAME']}}</td>
+							<td>{{row['pro_name']}}</td>
+							<td>{{row['tot_price']}}</td>
+							<td>{{row['order_status']}}</td>
+							<td><a href="?action=view&id={{row['cust_id']}}">View Customer Details</a></td>	
+						
+						</tr>
+						{% endfor %}
+					</tbody>
+				</table>
+			</div>
+		</div>
+		{%endif%}
+	</div>
+</div>
+{% include 'footer.html' %}
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FIT AND MATCH</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_customer_homepage">Customer_homepage</string>
+    <string name="title_activity_enquiry">Enquiry</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="title_activity_ornaments">Ornaments</string>
+    <string name="title_activity_jewellery">Jewellery</string>
+    <string name="title_activity_model">Model</string>
+    <string name="title_activity_history">Track Order</string>
+    <string name="title_activity_ipsettings">IPsettings</string>
+    <string name="title_activity_purchase_view">Purchase_view</string>
+    <string name="title_activity_model_details">Model_details</string>
+    <string name="title_activity_fit">Fit</string>
+    <string name="title_activity_payment">Payment</string>
+    <string name="title_activity_cart_view">Cart_view</string>
+    <string name="title_activity_pay">Pay</string>
+
+</resources>

@@ -1,0 +1,50 @@
+
+{% include 'salesheader.html' %}
+	<div id='page-wrapper'>
+	<div id='page-inner'>
+		<div class='row'>
+			<div class='col-md-12'>
+				<h3>CONFIRM PAYMENT</h3>
+				<div class='form'>
+				</div>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-md-12'>
+				<table class='table'>
+					<thead>
+						<tr>
+							<th>Sl No.</th>
+								<th>Customer Name</th>
+								<th>Product Name</th>
+								<th>Order Status</th>
+								<th>Price Paid</th>
+								<th>Payment Status</th>
+								<th>Confirm payment</th>
+						</tr>
+					</thead>
+					<tbody>
+						{% for row in data['view'] %}
+						<tr>
+							<td>{{loop.index}}</td>
+							<td>{{row['NAME']}}</td>
+							<td>{{row['pro_name']}}</td>
+							<td>{{row['order_status']}}</td>
+							<td>{{row['tot_price']}}</td>
+							<td>{{row['pay_status']}}</td>
+							{% if row['pay_status']=="pending" %}
+							<td><a href="?action=confirm&payid={{row['pay_id']}}&orderid={{row['order_id']}}" onclick="return confirm('Do you want to confirm payment ?')">CONFIRM PAYMENT</a></td>	
+							{%else%}
+							<td><img src="/static/icon/confirm.png" width="40px" height="40px"></td>
+							{%endif%}
+						</tr>
+						{% endfor %}
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+{% include 'footer.html' %}
+
+
